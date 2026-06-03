@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>StreetStyle | Streetwear</title>
 
-    <!-- ICONS -->
+    <link rel="icon" href="StreetStyle.jpeg">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -21,19 +30,25 @@
     <header>
 
         <div class="logo">
-            <img src="StreetStyle.jpeg" alt="">
+
+            <img src="StreetStyle.jpeg" alt="StreetStyle Logo">
+
         </div>
 
         <nav>
 
-            <a href="">Início</a>
-            <a href="">Sobre</a>
-            <a href="">Produtos</a>
-            <a href="">Contato</a>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+            
+            
 
         </nav>
 
-        <a href="https://www.instagram.com/streetstyle.ug/" target="_blank" class="insta-btn">
+        <a href="https://www.instagram.com/streetstyle.ug/"
+        target="_blank"
+        class="insta-btn">
 
             <i class="fa-brands fa-instagram"></i>
             @streetstyle.ug
@@ -46,22 +61,38 @@
 
     <section class="hero">
 
-        <div class="hero-text">
+        <div class="hero-text" data-aos="fade-right">
 
             <h1>
+
                 NÃO É SÓ ROUPA.
+
                 <span>É ATITUDE.</span>
+
             </h1>
 
             <p>
+
                 Streetwear criado para quem vive a cultura urbana.
+                Vista sua personalidade e represente seu estilo.
+
             </p>
 
-            <a href="https://www.instagram.com/streetstyle.ug/" target="_blank">
+            <div class="hero-buttons">
 
-                VER INSTAGRAM
+                <a href="produtos.html">
 
-            </a>
+                    VER PRODUTOS
+
+                </a>
+
+                <a href="contato.html" class="secondary-btn">
+
+                    FALE CONOSCO
+
+                </a>
+
+            </div>
 
         </div>
 
@@ -71,52 +102,62 @@
 
     <section class="about">
 
-        <div class="about-text">
+        <div class="about-text" data-aos="fade-up">
 
             <h2>SOBRE A STREETSTYLE</h2>
 
             <p>
-                A StreetStyle nasceu da rua para representar
-                atitude, autenticidade e estilo urbano.
-                Mais que roupas, criamos identidade.
+
+                A StreetStyle nasceu para representar atitude,
+                autenticidade e a essência da cultura urbana.
+
+                Mais do que roupas, criamos identidade para quem
+                vive o streetwear todos os dias.
+
             </p>
 
         </div>
 
         <div class="cards">
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
 
                 <i class="fa-solid fa-crown"></i>
 
                 <h3>ATITUDE</h3>
 
                 <p>
-                    Peças criadas para destacar seu estilo.
+
+                    Peças desenvolvidas para destacar seu estilo.
+
                 </p>
 
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
 
                 <i class="fa-solid fa-shirt"></i>
 
                 <h3>STREETWEAR</h3>
 
                 <p>
-                    Moda urbana com personalidade.
+
+                    Moda urbana inspirada na cultura das ruas.
+
                 </p>
 
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-delay="400">
 
                 <i class="fa-solid fa-bolt"></i>
 
                 <h3>QUALIDADE</h3>
 
                 <p>
-                    Conforto e design em cada detalhe.
+
+                    Conforto, durabilidade e autenticidade.
+
                 </p>
 
             </div>
@@ -125,35 +166,39 @@
 
     </section>
 
-    <!-- PRODUTOS -->
+    <!-- DESTAQUE -->
 
     <section class="products">
 
-        <h2>NOSSOS PRODUTOS</h2>
+        <h2 data-aos="fade-up">
+
+            DESTAQUES
+
+        </h2>
 
         <div class="product-grid">
 
-            <div class="product">
+            <div class="product" data-aos="zoom-in">
 
-                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1200&auto=format&fit=crop" alt="">
+                <img src="camiseta.jpg" alt="Camiseta">
 
                 <h3>Camisetas</h3>
 
             </div>
 
-            <div class="product">
+            <div class="product" data-aos="zoom-in" data-aos-delay="200">
 
-                <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=1200&auto=format&fit=crop" alt="">
+                <img src="casaco.jpg" alt="Casaco">
 
-                <h3>Moletons</h3>
+                <h3>Casacos</h3>
 
             </div>
 
-            <div class="product">
+            <div class="product" data-aos="zoom-in" data-aos-delay="400">
 
-                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop" alt="">
+                <img src="calca.jpg" alt="Calça">
 
-                <h3>Street Fits</h3>
+                <h3>Calças</h3>
 
             </div>
 
@@ -165,9 +210,14 @@
 
     <section class="cta">
 
-        <h2>SEU ESTILO. SUAS REGRAS.</h2>
+        <h2 data-aos="fade-up">
 
-        <a href="https://www.instagram.com/streetstyle.ug/" target="_blank">
+            SEU ESTILO. SUAS REGRAS.
+
+        </h2>
+
+        <a href="https://www.instagram.com/streetstyle.ug/"
+        target="_blank">
 
             <i class="fa-brands fa-instagram"></i>
 
@@ -182,10 +232,35 @@
     <footer>
 
         <p>
+
             © 2026 StreetStyle - Todos os direitos reservados.
+
         </p>
 
     </footer>
+
+    <!-- BOTÃO WHATSAPP -->
+
+    <a href="https://wa.me/5551994918985"
+    target="_blank"
+    class="whatsapp-float">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration:1000,
+            once:true
+        });
+
+    </script>
 
 </body>
 </html>
